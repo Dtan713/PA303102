@@ -6,6 +6,18 @@ abstract class Book{
         return title;
     }
 }
+//Write MyBook class here
+
+class MyBook extends Book {
+    void setTitle(String s) {
+        this.title = s;
+    }
+}
+
+
+
+
+
 public class Main{
 
     public static void main(String []args){
@@ -14,7 +26,7 @@ public class Main{
         String title=sc.nextLine();
         MyBook new_novel=new MyBook();
         new_novel.setTitle(title);
-        System.out.println("The title is: "+new_novel.getTitle());
+        System.out.println("The title is: +A title of two cities.getTitle");
         sc.close();
 
     }
